@@ -1,12 +1,9 @@
 # [phylobabble](http://phylobabble.org): a moden discussion forum for phylogenetics
 
 
-This looks pretty good. I think you could improve it further by being more specific about what kind of support for or participation in your initiative NESCent could make that would be most helpful. This could be financial (for example, suggest different levels of financial sponsorship and what they would accomplish), system administration assistance (expertise, or man power; suggest what expertise is lacking, or how much fractional time would accomplish what), promotion (e.g., suggest forms of advertisement and promotion that wouldn't be easily available to you), etc, or some combination. Manpower is obviously more challenging, but if a small amount can still make an impact, I wouldn't shy away from proposing it. Finally, while we can probably guess at it, some appeal in your own words towards the criteria of the "extent to which the success of the initiative would depend on the participation of the center" may be helpful too. For example, how it is difficult to get from other sources the kind of support you're suggesting, and how this support would set you up for better securing long-term sustainability.
-
-
 I have started [phylobabble.org](http://phylobabble.org), a phylogenetics discussion forum for the discussion of research and best practice.
-I have done so with my own work and using unrelated research budgets.
-This implementation has already shown that it will be a useful tool for phylogenetics researchers.
+I have done so with my own work and funding from unrelated research budgets.
+This initial implementation has already shown that it will be a useful tool for phylogenetics researchers.
 In order to make phylobabble into a stable resource that will be able to persist into the future, I would like to optimize compute resources as well as establish upgrade and backup procedures.
 
 Contact: Erick Matsen ([matsen@fhcrc.org](mailto:matsen@fhcrc.org))
@@ -92,5 +89,42 @@ Thus I propose a regular maintenance schedule to make backups automatically and 
 
 ## People and Organizations (either potential participants or experts that could be consulted for more information).
 
-I invite you to reach out to anyone who has registered for the forum to get their opinion.
+I invite you to reach out to anyone who has registered for the forum to get their opinion of it.
+
+## What I would like
+In a broad sense, I would like assistance with the computing costs associated with phylobabble as well as the systems administration tasks.
+For the systems administration, I would be happy if either NESCent staff got directly involved (assuming they had the necessary expertise in deploying Rails apps on the cloud) or if NESCent provided funding for a programmer in my group to take this on.
+There are several ways to proceed.
+
+1. *Leave phylobabble in a structurally similar state and provide computing costs as well as a small amount of support to maintain it.*
+This option would have phylobabble continue to be hosted through Bitnami.
+I would then request about $1,200 a year for AWS fees, and about 8 days per year of programmer effort to back up the databases and keep the instance up to date.
+
+2. *Move to a more flexible deployment scheme, which will require upfront investment but will be cheaper in the long run.*
+The Discourse authors have committed to deployment with Docker, which allows deployment on many different platforms.
+This will allow us to reduce computing costs by either using several Micro AWS instances through elastic load balancing, or thorough using a cheaper service such as Digital Ocean.
+I think that we could reduce computing fees to under $600 a year.
+I think that this would require a one-time effort of 15 days, and then 6 days per year after that.
+
+I prefer the second plan, as it is independent of changes that may happen at Bitnami.
+These changes could seriously impact us.
+For example, in the month or so since I signed up for Bitnami it is no longer possible to sign up for a plan that allows Medium AWS instances to be run through their system.
+I would not be surprised if they stopped allowing free use of this service tier even for users who had signed up previously.
+This would substantially change phylobabble finances, as the cheapest plan that allows our current Medium instance is $49/month.
+
+This project, as well as phyloseminar, do not appear fundable through traditional channels because they do not fit into any standard categories.
+So far I have tried to attract funding for phylobabble from the Sloan Foundation (through Josh Greenberg) and Amazon (through Jamie Kinney) with no results.
+In the past I have looked for mechanisms to support phyloseminar, without any results until the Society for Systematic Biologists stepped in and supported an initial improvement of phyloseminar as well as a small amount of continuing funding.
+
+Phylobabble is inherently more expensive than phyloseminar because phylobabble requires a dynamic host, and is much more complex of a website than phyloseminar.
+This dynamic hosting is much more expensive than a static site, and nontrivial resources are required to have reasonable response times.
+Specifically, I ran phyloseminar on zero budget for years, but phylobabble will end as soon as I stop paying hosting fees.
+
+Thus the participation of the center is greatly needed here, either for continuing support, for an initial burst of funding and/or effort to set us up for a more sustainable future, or for direction to where we might secure more long-term funding.
+I would also appreciate any effort that NESCent could do to promote participation in phylobabble, and participation from NESCent staff and postdocs.
+NESCent could also use its outreach experience to engage the broader public.
+My experience with phyloseminar tells me that after the initial spike of interest, what will make phylobabble successful in the long term is to have a continual stream of high-quality content and a stable platform.
+
+I hope NESCent will help enable greater communication among researchers and communication with the greater public through phylobabble.
+In case it's not already clear, I'm in this for the long haul.
 

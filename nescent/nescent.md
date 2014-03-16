@@ -1,7 +1,7 @@
-# [phylobabble](http://phylobabble.org): a moden discussion forum for phylogenetics
+# [phylobabble](http://phylobabble.org): a discussion forum for phylogenetics
 
 
-I have started [phylobabble.org](http://phylobabble.org), a phylogenetics discussion forum for the discussion of research and best practice.
+I have started [phylobabble.org](http://phylobabble.org), a discussion forum for the discussion of phylogenetics research and best practice.
 I have done so with my own work and funding from unrelated research budgets.
 This initial implementation has already shown that it will be a useful tool for phylogenetics researchers.
 In order to make phylobabble into a stable resource that will be able to persist into the future, I would like to optimize compute resources as well as establish upgrade and backup procedures.
@@ -44,7 +44,7 @@ I am most proud of how it has enabled communication between scientists, reducing
 It has brought together postdocs, sequence database administrators, and senior researchers.
 
 
-## Project Description (including use cases)
+## Project Description
 
 I started the phylobabble website with a "let's see how it goes" mind-set, to see if there was sufficient interest to motivate more sophisticated development.
 I am now confident of the potential for phylobabble.

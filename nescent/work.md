@@ -12,4 +12,6 @@ Contact: Erick Matsen ([matsen@fhcrc.org](mailto:matsen@fhcrc.org))
 * Advertise the site
 
 I estimate these tasks will take 15 hours this year, which at $50/hr would mean $750.
-Digital Ocean is $20 per month, and I hope that NESCENT will be willing to support this project for as long as possible.
+Digital Ocean is $20 per month, and thus 12 months will cost $240.
+This comes to a grand total of $990.
+
